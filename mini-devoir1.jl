@@ -13,5 +13,3 @@ condA = cond(A) #calcul du conditionnement, par défaut, on prend la norme eucli
 # 3
 @test size(A) == (100, 100) # un exemple d'utilisation de @test
 @test (norm(r)/norm(x)) <= condA*(norm(Ar)/norm(b)) #test de l'inégalité finale
-
-include("mini-devoir1.jl")
